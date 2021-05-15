@@ -51,7 +51,7 @@
     <header class="header" id="header" >
         <div class="container2 logo-nav-container">
             <div class="icon-busq" style="width:250px; position:relative;">
-                <a href="index.html"  class="logo"><img src="imagenes/corona.jpg" alt=""></a>
+                <a href="index.php"  class="logo"><img src="imagenes/corona.jpg" alt=""></a>
                <div style="position:absolute; left:60px;">
                 <h1 style="margin:0;">Nacho Store Ventas</h1>
                </div>
@@ -60,19 +60,19 @@
             <span class="menu-icon"><a href="#"><p class="palabraMenu"><i class="fas fa-home"></i>Menu</p><i class=" fas fa-bars"></i></a></span>
             
             <ul class="menuNavegacion" style="margin-top:5px;">
-            <li><a href="ventas.php" style="font-size:16px; padding:1px;">VENTAS</a></li>
-                    <li><a href="buzos.php" style="font-size:16px; padding:1px;">BUZOS</a></li>
-                    <li><a href="sweaters.php" style="font-size:16px;padding:1px;">SWEATERS</a></li>
-                    <li><a href="camperas.php" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
-                    <li><a href="parkas.php" style="font-size:16px;padding:1px;">PARKAS</a></li>
-                    <li><a href="remeras.php" style="font-size:16px;padding:1px;">REMERAS</a></li>
-                    <li><a href="jeans.php" style="font-size:16px;padding:1px;">JEANS</a></li>
-                    <li><a href="joggers.php" style="font-size:16px;padding:1px;">JOGGERS</a></li>
-                    <li><a href="chinos.php" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
-                    <li><a href="camisas.php" style="font-size:16px;padding:1px;">CAMISAS</a></li>
-                    <li><a href="zapatillas.php" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
-                    <li><a href="musculosas.php" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>
-                    <li><a href="joggins.php" style="font-size:16px;padding:1px;">JOGGINS</a></li>
+                <li><a href="ventas.php" style="font-size:16px; padding:1px;">VENTAS</a></li>
+                    <li><a href="views/categoria.php?categoria=buzos" style="font-size:16px; padding:1px;">BUZOS</a></li>
+                    <li><a href="views/categoria.php?categoria=sweaters" style="font-size:16px;padding:1px;">SWEATERS</a></li>
+                    <li><a href="views/categoria.php?categoria=camperas" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
+                    <li><a href="views/categoria.php?categoria=parkas" style="font-size:16px;padding:1px;">PARKAS</a></li>
+                    <li><a href="views/categoria.php?categoria=remeras" style="font-size:16px;padding:1px;">REMERAS</a></li>
+                    <li><a href="views/categoria.php?categoria=jeans" style="font-size:16px;padding:1px;">JEANS</a></li>
+                    <li><a href="views/categoria.php?categoria=joggers" style="font-size:16px;padding:1px;">JOGGERS</a></li>
+                    <li><a href="views/categoria.php?categoria=chinos" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
+                    <li><a href="views/categoria.php?categoria=camisas" style="font-size:16px;padding:1px;">CAMISAS</a></li>
+                    <li><a href="views/categoria.php?categoria=zapatillas" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
+                    <li><a href="views/categoria.php?categoria=musculosas" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>
+                    <li><a href="views/categoria.php?categoria=joggins" style="font-size:16px;padding:1px;">JOGGINS</a></li>
                 </ul>
             </div>
     
@@ -114,18 +114,16 @@
 
 
     <?php
-                       // include_once "db_empresa.php";
-                        $con = mysqli_connect("localhost", "root","","nachostore_stock");
-                        $query = "SELECT id,precio,fecha FROM ventas";
-                        $res = mysqli_query($con, $query);
+                       include_once "controllers/conexion.php";
+                      
+                        $query = "SELECT id,precio,fecha FROM ventas ORDER by id desc";
+                        $res = mysqli_query($conexion, $query);
                         $fecha="";
-                        while ($row = mysqli_fetch_assoc($res)) {
+                        while ($row = mysqli_fetch_assoc($res)){
                             $fechaMandar = $row['fecha'];
                             
-                            
-        
                             if($fecha != $row['fecha']){
-                                $fecha = $row['fecha'];
+                                $fecha = $row['fecha']; 
                                 echo "<a href='ventaVista.php?fecha=$fechaMandar'><h1 style='margin:0;color:#3a40ec;margin-bottom:7px;margin-top:7px;text-align:center;background-color: burlywood;border-radius: 5px;
                                 width: 90%;
                                 margin-left: 5%;'>$fecha</h1></a>";

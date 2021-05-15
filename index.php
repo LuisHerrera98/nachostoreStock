@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Inicio</title>
-        <link rel="icon" href="imagenes/corona-recorte.png">
+        <link rel="icon" href="imagenes/logoIcono.jpeg">
     
         <link rel="stylesheet" href="stylesheets/estilosProductos.css">
     
@@ -45,7 +45,7 @@
     <header class="header" id="header" >
         <div class="container2 logo-nav-container">
             <div class="icon-busq" style="width:250px; position:relative;">
-                <a href="index.html"  class="logo"><img src="imagenes/corona.jpg" alt=""></a>
+                <a href="index.php"  class="logo"><img src="imagenes/corona.jpg" alt=""></a>
                <div style="position:absolute; left:60px;">
                 <h1 style="margin:0;">Nacho Store Stock</h1>
                </div>
@@ -55,18 +55,18 @@
             
                 <ul class="menuNavegacion" style="margin-top:5px;">
                 <li><a href="ventas.php" style="font-size:16px; padding:1px;">VENTAS</a></li>
-                    <li><a href="buzos.php" style="font-size:16px; padding:1px;">BUZOS</a></li>
-                    <li><a href="sweaters.php" style="font-size:16px;padding:1px;">SWEATERS</a></li>
-                    <li><a href="camperas.php" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
-                    <li><a href="parkas.php" style="font-size:16px;padding:1px;">PARKAS</a></li>
-                    <li><a href="remeras.php" style="font-size:16px;padding:1px;">REMERAS</a></li>
-                    <li><a href="jeans.php" style="font-size:16px;padding:1px;">JEANS</a></li>
-                    <li><a href="joggers.php" style="font-size:16px;padding:1px;">JOGGERS</a></li>
-                    <li><a href="chinos.php" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
-                    <li><a href="camisas.php" style="font-size:16px;padding:1px;">CAMISAS</a></li>
-                    <li><a href="zapatillas.php" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
-                    <li><a href="musculosas.php" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>
-                    <li><a href="joggins.php" style="font-size:16px;padding:1px;">JOGGINS</a></li>
+                    <li><a href="views/categoria.php?categoria=buzos" style="font-size:16px; padding:1px;">BUZOS</a></li>
+                    <li><a href="views/categoria.php?categoria=sweaters" style="font-size:16px;padding:1px;">SWEATERS</a></li>
+                    <li><a href="views/categoria.php?categoria=camperas" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
+                    <li><a href="views/categoria.php?categoria=parkas" style="font-size:16px;padding:1px;">PARKAS</a></li>
+                    <li><a href="views/categoria.php?categoria=remeras" style="font-size:16px;padding:1px;">REMERAS</a></li>
+                    <li><a href="views/categoria.php?categoria=jeans" style="font-size:16px;padding:1px;">JEANS</a></li>
+                    <li><a href="views/categoria.php?categoria=joggers" style="font-size:16px;padding:1px;">JOGGERS</a></li>
+                    <li><a href="views/categoria.php?categoria=chinos" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
+                    <li><a href="views/categoria.php?categoria=camisas" style="font-size:16px;padding:1px;">CAMISAS</a></li>
+                    <li><a href="views/categoria.php?categoria=zapatillas" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
+                    <li><a href="views/categoria.php?categoria=musculosas" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>
+                    <li><a href="views/categoria.php?categoria=joggins" style="font-size:16px;padding:1px;">JOGGINS</a></li>
                 </ul>
             </div>
     
@@ -111,81 +111,44 @@
 
         <div class="caja-talles">
             <div class="caja-talle">
-                <a href="buzos.php?talle=S" style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle buzos">BUZOS</p></i></a>
+                <a href="views/categoria.php?categoria=buzos" style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">BUZOS</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="sweaters.php?talle=M"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle M sweaters">SWEATERS</p></i></a>
+                <a href="views/categoria.php?categoria=sweaters"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">SWEATERS</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="camperas.php?talle=M"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle camperas">CAMPERAS</p></i></a>
+                <a href="views/categoria.php?categoria=camperas"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">CAMPERAS</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="remeras.php?talle=M"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle remeras">REMERAS</p></i></a>
+                <a href="views/categoria.php?categoria=remeras"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">REMERAS</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="parkas.php?talle=XL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle parkas">PARKAS</p></i></a>
+                <a href="views/categoria.php?categoria=parkas"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">PARKAS</p></i></a>
             </div>
            
             <div class="caja-talle">
-                <a href="jeans.php?talle=XXXL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle jeans">JEANS</p></i></a>   
+                <a href="views/categoria.php?categoria=jeans"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">JEANS</p></i></a>   
             </div>
             <div class="caja-talle">
-                <a href="joggers.php?talle=XL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle joggers">JOGGERS</p></i></a>
+                <a href="views/categoria.php?categoria=joggers"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">JOGGERS</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="chinos.php?talle=XXL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle chinos">Chinos/vestir</p></i></a>
+                <a href="views/categoria.php?categoria=chinos"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">Chinos/vestir</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="camisas.php?talle=XXXL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle camisas">CAMISAS</p></i></a>   
+                <a href="views/categoria.php?categoria=camisas"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">CAMISAS</p></i></a>   
             </div>
             <div class="caja-talle">
-                <a href="zapatillas.php?talle=XL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle zapatillas">ZAPATILLAS</p></i></a>
+                <a href="views/categoria.php?categoria=zapatillas"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">ZAPATILLAS</p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="musculosas.php?talle=XXL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle musculosas">MUSCULOSAS  </p></i></a>
+                <a href="views/categoria.php?categoria=musculosas"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">MUSCULOSAS  </p></i></a>
             </div>
             <div class="caja-talle">
-                <a href="joggins.php?talle=XXXL"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle joggins">JOGGINS</p></i></a>   
+                <a href="views/categoria.php?categoria=joggins"style="color:#333;" type="submit"><i class="fas fa-folder icono-carpeta"><p class="texto-talle">JOGGINS</p></i></a>   
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <div class="lista">
-                <nav class="centrar">
-                    <h4>NAVEGACIÓN</h4>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Tabla de talles</a></li>
-                        <li><a href="#">Como comprar</a></li>
-                    </ul>
-                </nav>
-    
-                <nav class="medios-pago centrar">
-                    <h4>MEDIOS DE PAGO</h4>
-                    <a href="#"><img src="imagenes/medios-pago.png" alt=""></a>
-                </nav>
-    
-                <nav class="contactanos centrar">
-                    <h4>CONTACTANOS</h4>
-                    <ul>
-                        <li><a href="#">2216497631 / WhatsApp 2216497631 / Mayoristas 2216497631</a></li>
-                        <li><a href="#">luchoherrerafernandez@gmail.com</a></li>
-                        <li><a href="#">Calle Falsa 1234</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="seguinos">
-                <h4>Seguinos</h4>
-                <hr class="linea">
-                <a href="#"><img src="imagenes/facebook.png" alt=""></a>
-                <a href="#"><img src="imagenes/instagram-bosquejado.png" alt=""></a>
-            </div>
-        </div>
-    </footer>
     
     <a href="https://wa.link/5jzkyo" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 

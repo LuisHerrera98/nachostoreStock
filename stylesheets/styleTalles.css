@@ -13,36 +13,25 @@
     width: 40%;
     height: 100px;
     background-size: cover;
-    
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .icono-carpeta{
-    font-size: 100px;
+    font-size: 125px;
     position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .texto-talle{
     font-size: 15px;
     position: absolute;
     color: antiquewhite;
-    top: 30px;
-    LEFT: 17px;
+    top: 42px;
 }
-.M{
-    left: 15px;
-}
-.L{
-    left: 15px;
-}
-.XL{
-    left: 13px;
-}
-.XXL{
-    left:7px;
-}
-.XXXL{
-    left:2px;
-}
+
 .boton-agregar{
     font-size: 18px;
     margin: 0;
@@ -56,38 +45,150 @@
     border:none;
     border-radius: 7px;
 }
-.buzos{
-    padding-left: 7px;
+
+.form{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(172, 172, 172) !important;
 }
-.sweaters{
-    left:8px;
+.form div label{
+    margin-top: 100px;
+    border-radius: 6px;
+    background-color: rgb(212, 212, 212);
+    width: 95%;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px;
+    font-weight: bold;
+    font-size: 16px !important;
 }
-.camperas{
-    left:5px;
+.form div p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
 }
-.remeras{
-    left:11px;
+.form div input{
+    width: 70% !important;
+    margin-left:0px !important ;
+    border-radius:10px!important; 
+    margin-top: 5px !important;
 }
-.jeans{
-    left:25px;
+.pasos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
 }
-.joggers{
-    left:13px;
+.pasos p{
+    color: red;
 }
-.chinos{
-    left:0px;
-    font-size: 17px;
+.desaparecer{
+    
+    transform: translate(-104%);
+    transition: 1s;
+    z-index: 1000;
 }
-.camisas{
-    left:13px
+.aparecer{
+    transform: translate(0px,0px);
+    transition: 1s;
+    z-index: 1000;
 }
-.joggins{
-    left:13px
+.form i{
+    position:absolute;
+    font-size: 30px;
+    display: block !important;
+    right: 22px !important;
+    top: 20px !important;
 }
-.musculosas{
-    font-size: 14px;
-    left: 4px;
+.inputTalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(168, 166, 166);
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-weight: bold;
 }
-.zapatillas{
-    left:4px;
+.inputTalles input{
+    width: 40% !important;
+    background-color: rgb(212, 212, 212)!important;
+    height: 30px !important;
+    margin: 0px !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    border-radius: 5px !important;
+    padding-left: 10px !important;
+}
+.inputTalles label{
+    width: 40% !important;
+    color: black !important;
+}
+body{
+    font-family: monospace !important;
+}
+.cajaImagen-producto{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cajaImagen-producto img{
+    width: 90% !important;
+}
+.detalles-productos{
+    width: 100%;
+}
+.nombre-productos{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: grey 1px 5px 5px;
+}
+.precio-productos{
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+    margin: 0;
+    text-align: center;
+}
+.precio-productos2{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(73, 72, 72);
+    margin: 0;
+    text-align: center;
+}
+.botonComprar-productos{
+    width: 100%;
+}
+.botonComprar-productos a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+.botonComprar-productos a p{
+    width: 200px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
