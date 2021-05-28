@@ -58,13 +58,6 @@ $categoria=$_POST['categoria'];
         </div>
     </main>
     <h1 style="margin-top: 12px;margin-bottom:5px;text-align: center;">EDITAR <?php echo  strtoupper($categoria)?></h1>
-    <a href="../controllers/cambio.php?id= <?php echo $id ?>" style="width:100%; text-decoration:none">
-    <div style="width:100%; display:flex; justify-content:center; align-items:center">
-        <p style="width:200px; line-height:30px; font-size:16px; font-family:monospace; background-color:black; color:white; text-decoration:none; text-align:center; border-radius:7px; padding-left:10px; padding-right:10px">
-            Borrar por cambio
-        </p>
-    </div>
-    </a>
     <form action="../controllers/guardar.php" method="POST" enctype="multipart/form-data" class="formularioPerris">
 
         <input type="hidden" name="id" id="id" class="input-crear" value="<?php echo $id ?>">

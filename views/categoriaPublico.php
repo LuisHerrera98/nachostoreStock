@@ -66,11 +66,12 @@
                     <li><a href="categoriaPublico.php?categoria=buzos" style="font-size:16px; padding:1px;">BUZOS</a></li>
                     <li><a href="categoriaPublico.php?categoria=sweaters" style="font-size:16px;padding:1px;">SWEATERS</a></li>
                     <li><a href="categoriaPublico.php?categoria=camperas" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
-                    <li><a href="categoriaPublico.php?categoria=parkas" style="font-size:16px;padding:1px;">PARKAS</a></li>
+                    <li><a href="categoriaPublico.php?categoria=parkas" style="font-size:16px;padding:1px;">ABRIGOS/PARKAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=remeras" style="font-size:16px;padding:1px;">REMERAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=jeans" style="font-size:16px;padding:1px;">JEANS</a></li>
                     <li><a href="categoriaPublico.php?categoria=joggers" style="font-size:16px;padding:1px;">JOGGERS</a></li>
                     <li><a href="categoriaPublico.php?categoria=chinos" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
+                    <li><a href="categoriaPublico.php?categoria=beisbol" style="font-size:16px;padding:1px;">CAMISETAS/BEISBOL</a></li>
                     <li><a href="categoriaPublico.php?categoria=camisas" style="font-size:16px;padding:1px;">CAMISAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=zapatillas" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=musculosas" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>

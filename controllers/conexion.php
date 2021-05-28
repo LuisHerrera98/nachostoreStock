@@ -1,5 +1,5 @@
 <?php
 
-$conexion = mysqli_connect("localhost", "root","","nachostore_stock");
+$conexion = mysqli_connect("localhost", "sensei","Mision2017","nachostoreStock");
 
 ?>

@@ -86,6 +86,7 @@
                     <li><a href="views/categoria.php?categoria=jeans" style="font-size:16px;padding:1px;">JEANS</a></li>
                     <li><a href="views/categoria.php?categoria=joggers" style="font-size:16px;padding:1px;">JOGGERS</a></li>
                     <li><a href="views/categoria.php?categoria=chinos" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
+                    <li><a href="views/categoria.php?categoria=beisbol" style="font-size:16px;padding:1px;">CAMISETAS/BEISBOL</a></li>
                     <li><a href="views/categoria.php?categoria=camisas" style="font-size:16px;padding:1px;">CAMISAS</a></li>
                     <li><a href="views/categoria.php?categoria=zapatillas" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
                     <li><a href="views/categoria.php?categoria=musculosas" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>

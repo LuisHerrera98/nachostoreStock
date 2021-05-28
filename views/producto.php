@@ -77,11 +77,12 @@ $row = mysqli_fetch_assoc($res);
                     <li><a href="categoriaPublico.php?categoria=buzos" style="font-size:16px; padding:1px;">BUZOS</a></li>
                     <li><a href="categoriaPublico.php?categoria=sweaters" style="font-size:16px;padding:1px;">SWEATERS</a></li>
                     <li><a href="categoriaPublico.php?categoria=camperas" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
-                    <li><a href="categoriaPublico.php?categoria=parkas" style="font-size:16px;padding:1px;">PARKAS</a></li>
+                    <li><a href="categoriaPublico.php?categoria=parkas" style="font-size:16px;padding:1px;">ABRIGOS/PARKAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=remeras" style="font-size:16px;padding:1px;">REMERAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=jeans" style="font-size:16px;padding:1px;">JEANS</a></li>
                     <li><a href="categoriaPublico.php?categoria=joggers" style="font-size:16px;padding:1px;">JOGGERS</a></li>
                     <li><a href="categoriaPublico.php?categoria=chinos" style="font-size:16px;padding:1px;">CHINOS/VESTIR</a></li>
+                    <li><a href="categoriaPublico.php?categoria=beisbol" style="font-size:16px;padding:1px;">CAMISETAS/BEISBOL</a></li>
                     <li><a href="categoriaPublico.php?categoria=camisas" style="font-size:16px;padding:1px;">CAMISAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=zapatillas" style="font-size:16px;padding:1px;">ZAPATILLAS</a></li>
                     <li><a href="categoriaPublico.php?categoria=musculosas" style="font-size:16px;padding:1px;">MUSCULOSAS</a></li>
@@ -135,10 +136,13 @@ $row = mysqli_fetch_assoc($res);
     <div class="detalles-productos"> 
         <p class="nombre-productos"><?php echo strtoupper($row['nombre']) ?></p>
         <p class="precio-productos2">Efectivo/Transferencia/Debito</p>
+        
         <p class="precio-productos">$<?php echo $row['precio'] ?></p>
+        <hr>
+        <p class="precio-productos2">Credito consultar las cuotas!</p>
     </div>
     <div class="botonComprar-productos">
-        <a href="">
+        <a href="https://api.whatsapp.com/send?phone=542216416297&text=hola%20me%20interesa%20el%20producto%20<?php echo $row['nombre'] ?>" target="_blank">
             <p>COMPRAR/RESERVAR</p>
         </a>
         <br>

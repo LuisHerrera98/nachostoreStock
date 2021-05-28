@@ -134,7 +134,7 @@ $talle = $_GET['talle'];
                     <li><a href="categoria.php?categoria=buzos" style="font-size:16px; padding:1px;">BUZOS</a></li>
                     <li><a href="categoria.php?categoria=sweaters" style="font-size:16px;padding:1px;">SWEATERS</a></li>
                     <li><a href="categoria.php?categoria=camperas" style="font-size:16px;padding:1px;">CAMPERAS</a></li>
-                    <li><a href="categoria.php?categoria=parkas" style="font-size:16px;padding:1px;">PARKAS</a></li>
+                    <li><a href="categoria.php?categoria=parkas" style="font-size:16px;padding:1px;">ABRIGOS/PARKAS</a></li>
                     <li><a href="categoria.php?categoria=remeras" style="font-size:16px;padding:1px;">REMERAS</a></li>
                     <li><a href="categoria.php?categoria=jeans" style="font-size:16px;padding:1px;">JEANS</a></li>
                     <li><a href="categoria.php?categoria=joggers" style="font-size:16px;padding:1px;">JOGGERS</a></li>
@@ -208,7 +208,7 @@ $talle = $_GET['talle'];
                     <button type="submit" style="color:wheat;background-color:black;border:none;border-radius:10px;text-align:center;"><i class="fas fa-plus" style="padding:0;font-size:15px"></i></button>
                 </form>
             </div>
-            <div style="position:absolute; border-radius:50px;color:white;background-color:black; top:2px;right:42%;margin:0; font-size:14px;width:26px;height:26px; display:flex; justify-content:center; align-items:center;"><p style="margin:0; text-align:center; font-family:Arial, Helvetica, sans-serif;">
+            <div style="position:absolute; border-radius:50px;color:white;background-color:trasparent; top:2px;right:42%;margin:0; font-size:14px;width:26px;height:26px; display:flex; justify-content:center; align-items:center;"><p style="margin:0; text-align:center; font-family:Arial, Helvetica, sans-serif;">
                 <form action="../controllers/cambio.php" method="post">
                 <input type="text" value="<?php echo $row['precio']; ?>" name="precio" style="display:none;">
 
